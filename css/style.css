@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+table {
+    border: 1px solid black;
+    height: 50vh;
+    width: 50vw;
+    border-collapse: collapse;
+}
+
+td,th {
+    border: 1px solid black;
+    text-align: center;
+}
