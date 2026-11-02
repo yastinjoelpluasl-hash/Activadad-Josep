@@ -1,0 +1,49 @@
+div {
+    border: 1px solid black;
+}
+
+.grid-container {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas: "diva divb"
+                            "divc divd";
+
+}
+
+.A {
+    grid-area: diva;
+}
+
+.B {
+    grid-area: divb;
+}
+
+.C {
+    grid-area: divc;
+}
+
+.D {
+    grid-area: divd;
+
+}
+
+.E {
+    grid-area: dive;
+}
+
+.F {
+    grid-area: divf;
+}
+
+.grid2{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas: "dive dive"
+                            "divf divg";
+}
